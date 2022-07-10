@@ -1,0 +1,81 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Api Data Migation</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="cover">
+  <h1> </h1>
+  <h1> API TEST </h1>
+  <h1> </h1>
+</div>
+
+<button type="button" class="btn btn-primary" (click)="postDataFromApi()">Click For Data Transfer</button>
+<button type="button" class="btn btn-danger" (click)="deleteAll()">Delete All Data From DB</button>
+
+<div class="row">
+  <div class="column">
+ <h5>Api data from direct url</h5> 
+
+ <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr  *ngFor="let post of directApiRes">
+      <th scope="row">{{post.id}}</th>
+      <td>{{post.name}}</td>
+      <td>{{post.email}}</td>
+      <td>{{post.gender}}</td>
+      <td>{{post.status}}</td>
+    </tr>
+  </tbody>
+ </table>
+  </div>
+    <div class="column">
+<h5>Local Api data from db</h5> 
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr  *ngFor="let post of LocalApiRes">
+      <th scope="row">{{post.id}}</th>
+      <td>{{post.name}}</td>
+      <td>{{post.email}}</td>
+      <td>{{post.gender}}</td>
+      <td>{{post.status}}</td>
+    </tr>
+  </tbody>
+ </table>
+    </div>
+    </div>
+    
+

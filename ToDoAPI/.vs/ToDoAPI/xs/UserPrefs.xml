@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{388C6714-CDD2-46A0-AD51-06C0245F949F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherForecast.cs">
+    <Files>
+      <File FileName="Startup.cs" Line="56" Column="16" />
+      <File FileName="Controllers/UserController.cs" Line="65" Column="1" />
+      <File FileName="ConfigureSwaggerOptions.cs" Line="25" Column="58" />
+      <File FileName="Program.cs" Line="23" Column="48" />
+      <File FileName="Data/ApplicationDbContext.cs" Line="12" Column="32" />
+      <File FileName="Models/Employee.cs" Line="18" Column="2" />
+      <File FileName="Migrations/20220710081801_MyFirstMigration1.cs" Line="22" Column="10" />
+      <File FileName="appsettings.json" Line="3" Column="130" />
+      <File FileName="Migrations/20220710082117_MyFirstMigration.cs" Line="23" Column="1" />
+      <File FileName="WeatherForecast.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ToDoAPI" expanded="True">
+            <Node name="ToDoAPI" expanded="True">
+              <Node name="Migrations" expanded="True" />
+              <Node name="WeatherForecast.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ToDoAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
